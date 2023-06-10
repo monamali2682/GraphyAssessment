@@ -18,8 +18,8 @@ import java.util.Date;
 public class EmailSenderService {
 
     private static final String CSV_PATH = "email_log.csv";
-    private final String subject = "Your Subject";
-    private final String message = "Your Email Message";
+    private final String subject = "Graphy Assessment";
+    private final String message = "Hii, Greetings for the day!";
     private static final int PAGE_SIZE = 100; // Number of users to fetch per page
 
     @Autowired
